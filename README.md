@@ -2,7 +2,7 @@ A "husk" project I'm making as a placeholder for other projects for my own perso
 
 Raylib is written by Ramon Santamaria, and is distributed as is. It is not included with this github repository.
 
-this husk on it's own isn't everything you need. To build this project, you need the following:
+this husk on it's own isn't everything you need. It doesn't include tools, and it also doesn't include any libraries. To build this project, you need the following:
 
 - The Emscripten and/or GCC toolchain
 - A copy of raylib for your desired build targets
