@@ -10,4 +10,10 @@ this husk on it's own isn't everything you need. It doesn't include tools, and i
     - For each platform you wish to compile for, place the static Raylib library compiled for that platform (usually libraylib.a) in build/target/lib, where target is the platform you're targeting
 - Make
 
+to get this husk ready for build, you need to do the following:
 
+1. Download or otherwise obtain your desired release of Raylib for whatever platform you want to compile for
+2. Create an "include" directory in the root of this project and put raylib's .h headers in there
+3. Run "make setup" to set up th build/ directory. It'll create empty folders for each platform.
+4. For your desired target platform within build/, put the static Raylib library in the lib/ subdirectory.
+5. To build for the web, just run "make". To build for Linux, run "make linux_amd64"
